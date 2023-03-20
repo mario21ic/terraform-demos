@@ -1,6 +1,5 @@
 provider "kubernetes" {
-  //config_path = "~/.kube/config"
-  config_path = "~/repo/yarkan/bisnes-backend/kubeconfig"
+  config_path = "~/.kube/config"
 }
 
 resource "kubernetes_deployment" "nginx_deployment" {
